@@ -1,0 +1,5 @@
+{
+  "name": "Copy of Quiz Platform",
+  "description": "An interactive quiz platform for medical students to test their knowledge in various subjects. The platform is designed to be easily extensible with new subjects and quizzes.",
+  "requestFramePermissions": []
+}
