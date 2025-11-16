@@ -123,13 +123,13 @@ export const QuizView: React.FC<QuizViewProps> = ({ quiz, onFinish, onBack }) =>
         <button
           onClick={prevQuestion}
           disabled={currentQuestionIndex === 0}
-          className="bg-gray-600 text-white py-3 px-8 rounded-full font-bold text-lg transition-colors hover:bg-blue-900 disabled:bg-gray-300 disabled:cursor-not-allowed"
+          className="bg-gray-600 text-white py-2 px-6 sm:py-3 sm:px-8 rounded-full font-bold text-lg transition-colors hover:bg-blue-900 disabled:bg-gray-300 disabled:cursor-not-allowed"
         >
           السابق
         </button>
         <button
           onClick={handleNext}
-          className="bg-gradient-to-r from-blue-500 to-sky-500 text-white py-3 px-8 rounded-full font-bold text-lg transition-transform hover:scale-105"
+          className="bg-gradient-to-r from-blue-500 to-sky-500 text-white py-2 px-6 sm:py-3 sm:px-8 rounded-full font-bold text-lg transition-transform hover:scale-105"
         >
           {currentQuestionIndex === quiz.questions.length - 1 ? 'إنهاء الاختبار' : 'التالي'}
         </button>
