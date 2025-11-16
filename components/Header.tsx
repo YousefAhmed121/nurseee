@@ -2,9 +2,9 @@
 import React from 'react';
 
 export const Header: React.FC = () => (
-  <header className="text-center mb-6 bg-white p-8 rounded-2xl shadow-md animate-fade-in">
-    <h1 className="text-blue-900 text-4xl font-extrabold mb-2">منصة الاختبارات</h1>
-    <p className="text-lg text-gray-600">اختبر معلوماتك في المواد الطبية</p>
+  <header className="text-center mb-6 bg-white p-6 sm:p-8 rounded-2xl shadow-md animate-fade-in">
+    <h1 className="text-blue-900 text-3xl sm:text-4xl font-extrabold mb-2">منصة الاختبارات</h1>
+    <p className="text-base sm:text-lg text-gray-600">اختبر معلوماتك في المواد الطبية</p>
   </header>
 );
 

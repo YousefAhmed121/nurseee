@@ -58,7 +58,7 @@ const App: React.FC = () => {
 
   return (
     <div className="min-h-screen text-gray-600 bg-sky-50 flex flex-col">
-      <main className="container mx-auto px-4 py-5 flex-grow">
+      <main className="container mx-auto px-2 sm:px-4 py-5 flex-grow">
         <Header />
         {renderView()}
       </main>
